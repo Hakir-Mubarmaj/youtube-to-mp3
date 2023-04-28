@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube to MP3 Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto my-8">
+        <h1 class="text-3xl font-bold mb-4">YouTube to MP3 Converter</h1>
+        <form action="convert.php" method="post" id="conversion-form">
+            <div class="flex items-center">
+                <label for="url" class="mr-4">Video URL:</label>
+                <input type="text" name="url" id="url" class="rounded border-gray-400 border px-2 py-1">
+            </div>
+            <div class="mt-4">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Convert to MP3
+                </button>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
